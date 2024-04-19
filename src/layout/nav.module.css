@@ -1,0 +1,12 @@
+.nav {
+  position: fixed;
+  background: var(--back);
+  width: 100vw;
+  padding: 0 10px;
+  height: var(--nav-height);
+  border-bottom: 1px solid var(--gray2);
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

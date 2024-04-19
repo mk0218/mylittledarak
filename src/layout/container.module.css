@@ -1,0 +1,12 @@
+.container {
+  position: absolute;
+  top: var(--nav-height);
+  width: 100%;
+  min-height: calc(100vh - var(--nav-height));
+  display: flex;
+  flex-direction: column;
+}
+
+.picture {
+  width: 100vw;
+}

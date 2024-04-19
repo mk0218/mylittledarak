@@ -1,0 +1,8 @@
+[package]
+name = "mylittledarak"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+leptos = { version = "0.6.11", features = ["csr", "nightly"] }
+stylance = { version = "0.3.0", features = ["nightly"] }

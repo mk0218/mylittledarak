@@ -1,0 +1,23 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100vh;
+  z-index: 2;
+  background: var(--back);
+}
+
+.top_area {
+  width: 100vw;
+  height: var(--nav-height);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.content_area {
+  width: 100vw;
+  padding: 10vh 10vw 0;
+}

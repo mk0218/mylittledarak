@@ -1,0 +1,52 @@
+body {
+  /* https://coolors.co/20212c-303242-404258-707282-a0a1ac-d0d0d6-e8e8eb. */
+  --color1: rgb(253, 253, 253); /* #FDFDFD */
+  --color2: rgb(232, 232, 235); /*#E8E8EB */
+  --color3: rgb(208, 208, 214); /*#D0D0D6 */
+  --color4: rgb(160, 161, 172); /*#A0A1AC */
+  --color5: rgb(112, 114, 130); /*#707282 */
+  --color6: rgb(64, 66, 88); /* #404258 */
+  --color7: rgb(48, 50, 66); /* #303242 */
+
+  --nav-height: 70px;
+
+  height: 100vh;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.light {
+  --back: var(--color1);
+  --gray1: var(--color2);
+  --gray2: var(--color3);
+  --gray3: var(--color4);
+  --gray4: var(--color5);
+  --gray5: var(--color6);
+  --front: var(--color7);
+  background: var(--back);
+  color: var(--front);
+}
+
+.dark {
+  --back: var(--color7);
+  --gray1: var(--color6);
+  --gray2: var(--color5);
+  --gray3: var(--color4);
+  --gray4: var(--color3);
+  --gray5: var(--color2);
+  --front: var(--color1);
+  background: var(--back);
+  color: var(--front);
+}
+
+.light,
+.dark {
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
